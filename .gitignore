@@ -1,0 +1,50 @@
+# Minecraft Server .gitignore
+
+# Exclude logs and crash reports
+logs/
+crash-reports/
+*.log
+*.log.gz
+
+# Exclude libraries (can be re-downloaded)
+libraries/
+versions/
+
+# Exclude server JAR (too large, should be downloaded separately)
+server.jar
+*.jar
+
+# Exclude session locks
+**/session.lock
+
+# Exclude temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude IDE files
+.idea/
+.vscode/
+*.iml
+
+# Include world files (we want to track these)
+# World directory is explicitly included below
+
+# Exclude user cache (can be regenerated)
+usercache.json
+
+# Keep these config files:
+# server.properties
+# eula.txt
+# ops.json
+# whitelist.json
+# banned-players.json
+# banned-ips.json
+# start.bat
+

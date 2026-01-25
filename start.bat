@@ -1,0 +1,1 @@
+java -Xmx6000M -Xms4000M -jar server.jar nogui
