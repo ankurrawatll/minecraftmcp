@@ -8,22 +8,30 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-01-15 22:46:50 +0530",
-      "minecraft:beach": "2026-01-14 00:25:04 +0530",
       "minecraft:old_growth_pine_taiga": "2026-01-15 23:15:25 +0530",
-      "minecraft:dark_forest": "2026-01-14 00:24:44 +0530",
       "minecraft:forest": "2026-01-14 00:23:57 +0530",
       "minecraft:taiga": "2026-01-15 23:11:13 +0530",
-      "minecraft:sparse_jungle": "2026-01-13 23:51:43 +0530",
-      "minecraft:river": "2026-01-14 00:09:04 +0530",
-      "minecraft:stony_shore": "2026-01-15 23:17:59 +0530",
       "minecraft:deep_cold_ocean": "2026-01-15 22:48:06 +0530",
-      "minecraft:old_growth_birch_forest": "2026-01-14 00:23:58 +0530",
+      "minecraft:eroded_badlands": "2026-01-31 22:16:19 +0530",
+      "minecraft:desert": "2026-01-31 22:23:57 +0530",
       "minecraft:ocean": "2026-01-14 00:29:06 +0530",
+      "minecraft:jungle": "2026-01-31 22:10:24 +0530",
       "minecraft:birch_forest": "2026-01-14 00:38:12 +0530",
       "minecraft:old_growth_spruce_taiga": "2026-01-15 23:17:42 +0530",
-      "minecraft:savanna": "2026-01-13 23:58:50 +0530",
       "minecraft:bamboo_jungle": "2026-01-13 23:50:30 +0530",
       "minecraft:windswept_savanna": "2026-01-14 00:30:58 +0530",
+      "minecraft:warm_ocean": "2026-01-31 22:28:34 +0530",
+      "minecraft:deep_lukewarm_ocean": "2026-01-31 22:29:44 +0530",
+      "minecraft:badlands": "2026-01-31 22:14:24 +0530",
+      "minecraft:beach": "2026-01-14 00:25:04 +0530",
+      "minecraft:dark_forest": "2026-01-14 00:24:44 +0530",
+      "minecraft:sparse_jungle": "2026-01-13 23:51:43 +0530",
+      "minecraft:river": "2026-01-14 00:09:04 +0530",
+      "minecraft:lukewarm_ocean": "2026-01-31 22:28:40 +0530",
+      "minecraft:stony_shore": "2026-01-15 23:17:59 +0530",
+      "minecraft:dripstone_caves": "2026-01-31 22:18:34 +0530",
+      "minecraft:old_growth_birch_forest": "2026-01-14 00:23:58 +0530",
+      "minecraft:savanna": "2026-01-13 23:58:50 +0530",
       "minecraft:plains": "2026-01-13 23:54:34 +0530"
     },
     "done": false
@@ -573,7 +581,8 @@
       "cooked_rabbit": "2026-01-23 00:06:57 +0530",
       "cooked_chicken": "2026-01-24 21:33:00 +0530",
       "potato": "2026-01-17 00:29:18 +0530",
-      "pumpkin_pie": "2026-01-29 22:01:07 +0530"
+      "pumpkin_pie": "2026-01-29 22:01:07 +0530",
+      "carrot": "2026-01-31 23:01:36 +0530"
     },
     "done": false
   },
@@ -1033,9 +1042,11 @@
       "minecraft:skeleton": "2026-01-15 00:54:33 +0530",
       "minecraft:phantom": "2026-01-30 21:53:38 +0530",
       "minecraft:zombified_piglin": "2026-01-20 22:20:57 +0530",
+      "minecraft:bogged": "2026-02-01 01:24:16 +0530",
       "minecraft:hoglin": "2026-01-19 00:14:59 +0530",
       "minecraft:vindicator": "2026-01-19 23:51:10 +0530",
       "minecraft:zombie_horse": "2026-01-28 23:38:10 +0530",
+      "minecraft:breeze": "2026-02-01 01:25:16 +0530",
       "minecraft:enderman": "2026-01-29 22:47:46 +0530",
       "minecraft:spider": "2026-01-15 00:51:17 +0530",
       "minecraft:zombie": "2026-01-14 01:24:13 +0530",
@@ -4118,6 +4129,132 @@
   "minecraft:recipes/building_blocks/terracotta": {
     "criteria": {
       "has_clay_block": "2026-01-30 22:37:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2026-01-31 22:14:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2026-01-31 22:18:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2026-01-31 22:23:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2026-01-31 22:23:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2026-01-31 22:28:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-01-31 22:38:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2026-01-31 22:45:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2026-01-31 22:45:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2026-01-31 22:45:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2026-01-31 22:45:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2026-01-31 22:58:15 +0530"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-01-31 22:58:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-02-01 01:18:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2026-02-01 01:37:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2026-02-01 01:31:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2026-02-01 01:38:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2026-02-01 01:38:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2026-02-01 01:25:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2026-02-01 01:35:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2026-02-01 01:25:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-02-01 01:35:31 +0530"
     },
     "done": true
   },
