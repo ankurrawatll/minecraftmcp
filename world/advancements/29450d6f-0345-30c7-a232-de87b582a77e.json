@@ -4210,15 +4210,39 @@
     },
     "done": true
   },
-  "minecraft:adventure/under_lock_and_key": {
+  "minecraft:recipes/combat/mace": {
     "criteria": {
-      "under_lock_and_key": "2026-02-01 01:37:33 +0530"
+      "has_breeze_rod": "2026-02-01 01:25:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2026-02-01 01:25:23 +0530"
     },
     "done": true
   },
   "minecraft:adventure/revaulting": {
     "criteria": {
       "revaulting": "2026-02-01 01:31:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2026-02-01 01:35:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-02-01 01:35:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2026-02-01 01:37:33 +0530"
     },
     "done": true
   },
@@ -4231,30 +4255,6 @@
   "minecraft:recipes/redstone/honey_block": {
     "criteria": {
       "has_honey_bottle": "2026-02-01 01:38:42 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/mace": {
-    "criteria": {
-      "has_breeze_rod": "2026-02-01 01:25:23 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
-    "criteria": {
-      "has_flow_armor_trim_smithing_template": "2026-02-01 01:35:31 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wind_charge": {
-    "criteria": {
-      "has_breeze_rod": "2026-02-01 01:25:23 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2026-02-01 01:35:31 +0530"
     },
     "done": true
   },
