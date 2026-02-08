@@ -126,10 +126,12 @@
       "mutton": "2026-01-16 02:05:16 +0530",
       "chicken": "2026-01-17 02:07:35 +0530",
       "bread": "2026-01-15 20:53:26 +0530",
+      "golden_apple": "2026-02-06 18:59:58 +0530",
       "cooked_mutton": "2026-01-15 01:42:50 +0530",
       "salmon": "2026-01-17 03:45:55 +0530",
       "cooked_beef": "2026-01-15 00:32:44 +0530",
       "beef": "2026-01-17 03:04:33 +0530",
+      "baked_potato": "2026-02-05 18:39:51 +0530",
       "melon_slice": "2026-01-15 00:16:09 +0530",
       "porkchop": "2026-01-17 06:28:15 +0530",
       "golden_carrot": "2026-01-29 02:29:38 +0530",
@@ -1150,6 +1152,7 @@
       "minecraft:skeleton": "2026-01-16 01:18:47 +0530",
       "minecraft:phantom": "2026-01-30 23:26:45 +0530",
       "minecraft:zombified_piglin": "2026-01-16 01:34:54 +0530",
+      "minecraft:witch": "2026-02-05 17:05:03 +0530",
       "minecraft:wither_skeleton": "2026-01-17 01:38:16 +0530",
       "minecraft:ravager": "2026-01-20 00:02:12 +0530",
       "minecraft:bogged": "2026-02-01 01:24:55 +0530",
@@ -1158,8 +1161,10 @@
       "minecraft:piglin": "2026-01-31 00:20:00 +0530",
       "minecraft:vindicator": "2026-01-19 23:57:22 +0530",
       "minecraft:breeze": "2026-02-01 01:22:12 +0530",
+      "minecraft:zombie_horse": "2026-02-05 17:48:10 +0530",
       "minecraft:enderman": "2026-01-15 01:40:38 +0530",
       "minecraft:magma_cube": "2026-01-17 05:38:51 +0530",
+      "minecraft:spider": "2026-02-06 20:04:35 +0530",
       "minecraft:zombie": "2026-01-15 00:56:58 +0530",
       "minecraft:creeper": "2026-01-16 01:21:44 +0530",
       "minecraft:drowned": "2026-01-17 21:25:31 +0530",
@@ -4518,6 +4523,102 @@
   "minecraft:adventure/who_needs_rockets": {
     "criteria": {
       "who_needs_rockets": "2026-02-01 01:44:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2026-02-05 19:54:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-02-05 19:54:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-02-05 19:54:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2026-02-05 19:57:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2026-02-06 19:02:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2026-02-06 20:42:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2026-02-06 20:42:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-02-06 21:19:18 +0530"
     },
     "done": true
   },
