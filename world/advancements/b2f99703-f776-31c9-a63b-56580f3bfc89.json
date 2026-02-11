@@ -35,6 +35,7 @@
       "minecraft:deep_lukewarm_ocean": "2026-02-01 23:59:42 +0530",
       "minecraft:badlands": "2026-02-01 17:18:29 +0530",
       "minecraft:flower_forest": "2026-02-01 23:56:52 +0530",
+      "minecraft:savanna_plateau": "2026-02-09 20:44:11 +0530",
       "minecraft:beach": "2026-01-14 00:24:39 +0530",
       "minecraft:dark_forest": "2026-01-14 00:24:19 +0530",
       "minecraft:sparse_jungle": "2026-01-13 23:50:06 +0530",
@@ -42,8 +43,10 @@
       "minecraft:lukewarm_ocean": "2026-01-14 02:33:00 +0530",
       "minecraft:snowy_plains": "2026-01-18 17:28:51 +0530",
       "minecraft:stony_shore": "2026-01-24 02:56:32 +0530",
+      "minecraft:dripstone_caves": "2026-02-09 20:50:45 +0530",
       "minecraft:frozen_peaks": "2026-02-05 15:46:10 +0530",
       "minecraft:old_growth_birch_forest": "2026-01-14 00:23:53 +0530",
+      "minecraft:deep_dark": "2026-02-09 20:55:43 +0530",
       "minecraft:swamp": "2026-01-20 02:43:32 +0530",
       "minecraft:grove": "2026-01-24 02:53:50 +0530",
       "minecraft:meadow": "2026-01-15 23:18:44 +0530",
@@ -1503,6 +1506,7 @@
       "minecraft:bogged": "2026-01-19 22:33:40 +0530",
       "minecraft:ghast": "2026-01-24 23:30:00 +0530",
       "minecraft:hoglin": "2026-01-21 00:32:43 +0530",
+      "minecraft:guardian": "2026-02-10 21:34:16 +0530",
       "minecraft:breeze": "2026-01-19 22:55:53 +0530",
       "minecraft:vindicator": "2026-01-19 23:50:49 +0530",
       "minecraft:zombie_horse": "2026-01-25 03:49:50 +0530",
@@ -5335,7 +5339,8 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "minecraft:black": "2026-01-30 00:32:09 +0530"
+      "minecraft:black": "2026-01-30 00:32:09 +0530",
+      "minecraft:british_shorthair": "2026-02-11 18:48:06 +0530"
     },
     "done": false
   },
@@ -5708,6 +5713,96 @@
   "minecraft:adventure/throw_trident": {
     "criteria": {
       "shot_trident": "2026-02-08 18:29:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2026-02-09 18:22:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2026-02-10 21:27:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2026-02-10 21:27:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-02-10 21:33:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-02-10 21:33:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-02-10 21:33:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-02-10 21:34:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2026-02-10 21:34:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-02-10 21:34:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-02-10 21:34:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2026-02-10 23:47:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2026-02-11 00:18:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-02-11 00:29:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2026-02-11 16:35:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2026-02-11 16:35:16 +0530"
     },
     "done": true
   },
