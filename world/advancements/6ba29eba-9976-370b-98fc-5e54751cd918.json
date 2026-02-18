@@ -8,25 +8,30 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-01-19 21:22:59 +0530",
+      "minecraft:old_growth_pine_taiga": "2026-02-17 00:58:00 +0530",
+      "minecraft:forest": "2026-01-12 02:41:47 +0530",
+      "minecraft:taiga": "2026-02-17 00:57:00 +0530",
+      "minecraft:lush_caves": "2026-01-14 02:10:39 +0530",
+      "minecraft:windswept_forest": "2026-01-15 00:56:40 +0530",
+      "minecraft:ocean": "2026-01-14 00:29:24 +0530",
+      "minecraft:jungle": "2026-01-14 01:53:14 +0530",
+      "minecraft:birch_forest": "2026-01-14 00:37:49 +0530",
+      "minecraft:old_growth_spruce_taiga": "2026-02-17 00:59:30 +0530",
+      "minecraft:bamboo_jungle": "2026-01-12 02:27:05 +0530",
+      "minecraft:windswept_savanna": "2026-01-14 00:33:22 +0530",
       "minecraft:savanna_plateau": "2026-02-11 00:27:56 +0530",
       "minecraft:beach": "2026-01-14 00:26:36 +0530",
       "minecraft:dark_forest": "2026-01-14 00:26:15 +0530",
-      "minecraft:forest": "2026-01-12 02:41:47 +0530",
       "minecraft:mangrove_swamp": "2026-01-15 01:09:12 +0530",
       "minecraft:sparse_jungle": "2026-01-12 02:27:20 +0530",
       "minecraft:river": "2026-01-12 02:41:31 +0530",
       "minecraft:lukewarm_ocean": "2026-01-14 01:08:46 +0530",
-      "minecraft:lush_caves": "2026-01-14 02:10:39 +0530",
+      "minecraft:stony_shore": "2026-02-17 00:59:49 +0530",
       "minecraft:dripstone_caves": "2026-01-14 02:14:47 +0530",
       "minecraft:old_growth_birch_forest": "2026-01-14 00:25:59 +0530",
-      "minecraft:windswept_forest": "2026-01-15 00:56:40 +0530",
       "minecraft:deep_dark": "2026-02-11 00:30:12 +0530",
-      "minecraft:ocean": "2026-01-14 00:29:24 +0530",
-      "minecraft:jungle": "2026-01-14 01:53:14 +0530",
-      "minecraft:birch_forest": "2026-01-14 00:37:49 +0530",
+      "minecraft:meadow": "2026-02-17 01:00:49 +0530",
       "minecraft:savanna": "2026-01-13 23:54:19 +0530",
-      "minecraft:bamboo_jungle": "2026-01-12 02:27:05 +0530",
-      "minecraft:windswept_savanna": "2026-01-14 00:33:22 +0530",
       "minecraft:plains": "2026-01-12 02:41:28 +0530"
     },
     "done": false
@@ -208,9 +213,11 @@
       "minecraft:ravager": "2026-01-26 03:59:35 +0530",
       "minecraft:ghast": "2026-01-18 02:24:36 +0530",
       "minecraft:hoglin": "2026-02-11 00:22:25 +0530",
+      "minecraft:shulker": "2026-02-17 02:41:33 +0530",
       "minecraft:piglin": "2026-01-19 02:27:25 +0530",
       "minecraft:vindicator": "2026-01-26 03:51:08 +0530",
       "minecraft:zombie_horse": "2026-01-30 03:47:41 +0530",
+      "minecraft:enderman": "2026-02-17 01:42:58 +0530",
       "minecraft:magma_cube": "2026-01-18 02:29:35 +0530",
       "minecraft:spider": "2026-01-14 04:00:01 +0530",
       "minecraft:vex": "2026-01-26 03:57:10 +0530",
@@ -4257,15 +4264,255 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-02-11 00:33:50 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/recovery_compass": {
     "criteria": {
       "has_echo_shard": "2026-02-11 00:43:12 +0530"
     },
     "done": true
   },
-  "minecraft:adventure/avoid_vibration": {
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
     "criteria": {
-      "avoid_vibration": "2026-02-11 00:33:50 +0530"
+      "has_coal_ore": "2026-02-17 01:11:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2026-02-17 01:11:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2026-02-17 01:14:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2026-02-17 01:14:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2026-02-17 01:14:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2026-02-17 01:14:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-02-17 01:20:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-02-17 01:26:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-02-17 01:26:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-02-17 01:26:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-02-17 01:26:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-02-17 01:26:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-02-17 01:26:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2026-02-17 01:27:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-02-17 01:31:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-02-17 01:31:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-02-17 01:31:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2026-02-17 01:31:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-02-17 01:31:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-02-17 01:31:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-02-17 01:31:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-02-17 01:41:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2026-02-17 01:44:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-02-17 02:36:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2026-02-17 02:36:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2026-02-17 02:36:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2026-02-17 02:36:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2026-02-17 02:36:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2026-02-17 02:36:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2026-02-17 02:36:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2026-02-17 02:36:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-02-17 02:36:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2026-02-17 02:43:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2026-02-17 02:43:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2026-02-17 02:43:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2026-02-17 02:43:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2026-02-17 02:43:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2026-02-17 02:43:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-02-17 02:58:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-02-17 03:22:59 +0530"
     },
     "done": true
   },

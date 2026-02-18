@@ -4574,15 +4574,33 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-02-11 00:14:01 +0530"
+    },
+    "done": true
+  },
   "minecraft:adventure/totem_of_undying": {
     "criteria": {
       "used_totem": "2026-02-11 00:16:30 +0530"
     },
     "done": true
   },
-  "minecraft:adventure/avoid_vibration": {
+  "minecraft:recipes/tools/recovery_compass": {
     "criteria": {
-      "avoid_vibration": "2026-02-11 00:14:01 +0530"
+      "has_echo_shard": "2026-02-17 00:20:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2026-02-17 00:21:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2026-02-17 00:13:09 +0530"
     },
     "done": true
   },
